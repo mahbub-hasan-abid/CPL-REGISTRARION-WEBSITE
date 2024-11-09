@@ -62,7 +62,6 @@ class _SecondSectionState extends State<SecondSection> {
     final ref = storage
         .ref()
         .child('Player Images')
-        .child(nameController.text)
         .child('${nameController.text}.jpg');
 
     final uploadTask = ref.putData(selectedImageBytes!);
