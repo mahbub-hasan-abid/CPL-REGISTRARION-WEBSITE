@@ -3,8 +3,13 @@ import 'package:flutter/widgets.dart';
 import 'package:slide_countdown/slide_countdown.dart';
 
 class CustomCountdownTimer extends StatelessWidget {
+  // Set the target date
+  DateTime targetDate = DateTime(2024, 11, 15);
+  // Calculate the remaining duration
+
   @override
   Widget build(BuildContext context) {
+    Duration duration = targetDate.difference(DateTime.now());
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
@@ -15,7 +20,7 @@ class CustomCountdownTimer extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               SlideCountdownSeparated(
-                duration: const Duration(days: 8),
+                duration: duration,
                 separatorType: SeparatorType.title,
                 replacement: const Text(
                   'End',
