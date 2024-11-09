@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'dart:html' as html;
+
 import 'dart:typed_data';
 
 class ImageUploadWidget extends StatefulWidget {

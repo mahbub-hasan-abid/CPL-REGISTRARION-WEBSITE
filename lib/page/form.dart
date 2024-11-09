@@ -21,7 +21,7 @@ class PlayerFormPage extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       firstSection(),
-                      secondSection(),
+                      SecondSection(),
                       SizedBox(height: 50),
                       thirdSection(),
                     ],
@@ -31,7 +31,7 @@ class PlayerFormPage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Expanded(flex: 1, child: firstSection()),
-                    Expanded(flex: 1, child: secondSection()),
+                    Expanded(flex: 1, child: SecondSection()),
                     Expanded(flex: 1, child: thirdSection()),
                   ],
                 )),

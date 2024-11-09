@@ -1,7 +1,6 @@
 import 'package:cpl_form/utils/url_launch.dart';
 import 'package:flutter/material.dart';
-// TODO: add flutter_svg package to pubspec.yaml
-import 'package:flutter_svg/flutter_svg.dart';
+
 import 'package:lottie/lottie.dart';
 
 class UploadSuccessfulScreen extends StatefulWidget {
