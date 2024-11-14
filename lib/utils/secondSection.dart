@@ -112,7 +112,15 @@ class _SecondSectionState extends State<SecondSection> {
                   const SizedBox(height: 10),
                   _buildDropdownField(
                       'Session',
-                      ['18-19', '19-20', '20-21', '21-22', '22-23', '23-24'],
+                      [
+                        '18-19',
+                        '19-20',
+                        '20-21',
+                        '21-22',
+                        '22-23',
+                        '23-24',
+                        'Others'
+                      ],
                       "session"),
                   const SizedBox(height: 20),
                   ImageUploadWidget(
