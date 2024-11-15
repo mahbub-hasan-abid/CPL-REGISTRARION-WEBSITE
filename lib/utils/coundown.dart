@@ -4,7 +4,7 @@ import 'package:slide_countdown/slide_countdown.dart';
 
 class CustomCountdownTimer extends StatelessWidget {
   // Set the target date
-  DateTime targetDate = DateTime(2024, 11, 15);
+  DateTime targetDate = DateTime(2024, 11, 17);
   // Calculate the remaining duration
 
   @override
